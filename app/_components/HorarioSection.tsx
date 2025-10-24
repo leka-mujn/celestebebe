@@ -6,7 +6,7 @@ const HorarioSection = () => {
     <div className="container mx-auto p-4">
       {/* Tarjeta más grande con animación de temblor al hacer hover, ahora como tabla */}
       <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-4xl mx-auto tremble">
-        <h3 className="text-2xl font-bold text-gray-800 mb-4">Horario de Atención</h3>
+        <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">Horario de Atención</h3>
         <div className="overflow-x-auto">
           <table className="w-full table-auto border-collapse border border-gray-300 min-w-[600px]">
             <thead>
