@@ -72,12 +72,6 @@ const Navbar = () => {
               >
                 Contacto
               </Link>
-              <Link
-                href="/signin"
-                className="text-xl font-bold text-white hover:text-black hover:underline"
-              >
-                Sign In
-              </Link>
             </div>
           </div>
           {/* Menú desplegable para móviles: aparece solo cuando isOpen es true, con fondo degradado y enlaces */}
@@ -110,13 +104,6 @@ const Navbar = () => {
                 onClick={toggleMenu}
               >
                 Contacto
-              </Link>
-              <Link
-                href="/signin"
-                className="block text-xl font-bold text-white hover:text-black hover:underline py-1"
-                onClick={toggleMenu}
-              >
-                Sign In
               </Link>
               {/* Redes sociales dentro del menú móvil: iconos de Instagram, Facebook y WhatsApp */}
               <div className="flex justify-around mt-2">

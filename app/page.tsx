@@ -8,18 +8,14 @@ export default function Home() {
   return (
     <div className="fixed inset-0 z-50">
       <div 
-        className="relative w-full h-full bg-no-repeat bg-center" 
-        style={{ 
-          backgroundImage: "url('/facebook.png')",
-          backgroundSize: '100% 100%'
-        }}
+        className="relative w-full h-full bg-no-repeat bg-center bg-pink-50 md:bg-[url('/facebook.png')] md:bg-[length:100%_100%]" 
       >
-        {/* Overlay reducido para mejor visibilidad */}
-        <div className="absolute inset-0 bg-black opacity-30"></div>
+        {/* Overlay reducido para mejor visibilidad, solo en escritorio */}
+        <div className="absolute inset-0 bg-transparent opacity-0 md:bg-black md:opacity-30"></div>
         
         {/* Contenido del hero */}
         <div className="relative z-10 flex items-center justify-start h-full px-8">
-          <div className="text-white max-w-lg">
+          <div className="text-gray-500 md:text-white max-w-lg">
             <h1 className="text-5xl font-bold mb-4 drop-shadow-lg">
               Celeste Bebe Moda Infantil
             </h1>
