@@ -11,7 +11,7 @@ const ContactSection: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 h-full tremble">
               <h2 className="text-2xl font-bold text-gray-800 mb-4">Contacto</h2>
               <p className="text-gray-700 mb-2">
-                <strong>Correo Electrónico:</strong> bertamt76@gmail.com
+                <strong>Correo Electrónico:</strong> bertha76@hotmail.es
               </p>
               <p className="text-gray-700">
                 <strong>Teléfono:</strong> +34 626 945 238

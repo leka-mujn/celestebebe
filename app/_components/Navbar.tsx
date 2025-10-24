@@ -72,12 +72,6 @@ const Navbar = () => {
               >
                 Contacto
               </Link>
-              <Link
-                href="/signin"
-                className="text-xl font-bold text-white hover:text-black hover:underline"
-              >
-                Sign In
-              </Link>
             </div>
           </div>
           {/* Menú desplegable para móviles: aparece solo cuando isOpen es true, con fondo degradado y enlaces */}
