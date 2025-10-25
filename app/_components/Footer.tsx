@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-pink-300 via-purple-300 to-purple-400 text-white py-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8">
         {/* Descripción */}
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 text-center md:text-left">
           <h3 className="font-bold text-lg mb-2">Celeste Bebe Moda Infantil</h3>
           <p className="text-sm mb-1">
             Ropa infantil de calidad para los más pequeños de la casa.
@@ -37,9 +37,9 @@ const Footer = () => {
         </div>
 
         {/* Contacto y redes sociales */}
-        <div className="md:w-1/3 text-right">
+        <div className="md:w-1/3 text-center md:text-right">
           <h4 className="font-semibold mb-2">Síguenos</h4>
-          <div className="flex justify-end space-x-4 mb-3">
+          <div className="flex justify-center md:justify-end space-x-4 mb-3">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram size={20} />
             </a>
