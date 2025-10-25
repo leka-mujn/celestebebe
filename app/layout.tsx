@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
 import { Nunito } from "next/font/google";
+import Footer from "./_components/Footer";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <div className="min-h-screen bg-pink-50 text-gray-900">
           <Navbar />
           <main className="container mx-auto px-4 py-8">{children}</main>
+          <Footer />
         </div>
       </body>
     </html>

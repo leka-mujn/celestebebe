@@ -3,9 +3,9 @@ import React from 'react';
 
 const HorarioSection = () => {
   return (
-    <div className="container mx-auto p-4">
-      {/* Tarjeta más grande con animación de temblor al hacer hover, ahora como tabla */}
-      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-4xl mx-auto tremble">
+    <div className="container mx-auto p-4 flex flex-col justify-start items-center" style={{ minHeight: 'auto' }}> {/* Cambié a justify-start para alinear la tarjeta arriba, y removí el minHeight para que no centre verticalmente. Ahora la tarjeta se posiciona mucho más arriba, pegada al navbar. */}
+      {/* La tabla ahora está alineada arriba, cerca del navbar, sin centrado vertical */}
+      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-4xl mx-auto tremble" style={{ marginTop: '10px' }}> {/* Agregué un pequeño marginTop de 10px para evitar que se pegue completamente al navbar, pero puedes ajustarlo a 0 si quieres que esté justo pegado */}
         <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">Horario de Atención</h3>
         <div className="overflow-x-auto">
           <table className="w-full table-auto border-collapse border border-gray-300 min-w-[600px]">
