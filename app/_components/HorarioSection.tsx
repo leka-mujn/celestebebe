@@ -87,6 +87,8 @@ const HorarioSection = () => {
           </table>
         </div>
       </div>
+      {/* Espacio en blanco al final para que el footer llegue al final */}
+      <div className="h-48"></div>
       <style jsx>{`
         .card-3d {
           transition: transform 0.1s ease; /* Reduje la duración para un seguimiento más responsivo */
